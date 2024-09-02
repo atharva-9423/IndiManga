@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Indimanga</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+ <div class="screen">
+  <div class="navigation">
+    <ul>
+      <li class="list active">
+        <a href="#">
+          <span class="icon"><ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="text">Home</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="https://www.mediafire.com/file/g4dfox7pzf07r3x/IndiManga_%25281%2529.apk/file">
+          <span class="icon"><ion-icon name="phone-portrait-outline"></ion-icon>
+          </span>
+          <span class="text">App</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="http://indimangaabout.wordpress.com">
+          <span class="icon"><ion-icon name="information-circle-outline"></ion-icon>
+          </span>
+          <span class="text">About</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="https://t.me/indimangachat">
+          <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon>
+          </span>
+          <span class="text">Contact</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="https://whatsapp.com/channel/0029VahY0UX1yT24cL1Rh40x">
+          <span class="icon"><ion-icon name="logo-whatsapp"></ion-icon>
+          </span>
+          <span class="text">Whatsapp</span>
+        </a>
+      </li>
+      <div class="indicator"></div>
+    </ul>
+  </div>
+  
+  <script>
+    const list = document.querySelectorAll('.list');
+    function activeLink(){
+      list.forEach((item) =>
+      item.classList.remove('active'));
+      this.classList.add('active');
+    }
+    list.forEach((item) =>
+    item.addEventListener('click',activeLink));
+  </script>
+  
+  
+  <script>
+    const list = document.querySelectorAll('.list');
+    function activeLink(){
+      list.forEach((item) =>
+      item.classList.remove('active'));
+      this.classList.add('active');
+    }
+    list.forEach((item) =>
+    item.addEventListener('click',activeLink))
+  </script>
+  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+  <header class="header">
+   <a href="#" class="logo">IndiManga</a>
+  </header>
+  
+  <section class="home">
+    <div class="home-content">
+      <h1>Hi, its IndiManga</h1>
+      <h3>Hindi Subbed Manga Ki Duniya</h3>
+      <p>Yeh hai IndiManga ki duniya jo bhari hui hai sabhi tarah ke manga, manhwa aur manhua ke Hindi subbed versions se, jo aap tak pahuchaati hai behtareen quality ki manga bilkul lajawaab translations ke saath IndiManga par aane ke liye aapka bahut bahut shukriya.☺️</p>
+      <div class="btn-box">
+        <a href="https://www.indimanga.xyz/">Shuru Kare?</a>
+        <a href="https://t.me/IndiManga">Join Us</a>
+      </div>
+    </div>
+    
+    <div class="home-sci">
+      <a href="https://t.me/IndiManga"><i class='bx bxl-telegram'></i></a>
+      <a href="https://www.instagram.com/indimanga.xyz?igsh=NWliZm5lbnRxeGlj"><i class='bx bxl-instagram' ></i></a>
+      <a href="https://indimanga.xyz"><i class='bx bxl-google' ></i></a>
+    </div>
+    
+  </section>
+ </div>
+  
+
+</body>
+
+</html>
